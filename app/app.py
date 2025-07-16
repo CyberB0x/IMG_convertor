@@ -39,6 +39,6 @@ def index():
             return send_file(new_path, as_attachment=True)
 
         # Отображаем HTML-файл с формой
-        return render_template("index.html")
+        return render_template("inbox.html")
 
 
